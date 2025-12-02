@@ -14,6 +14,5 @@ class Name {
         void set_first(std::string first) { this->first = first;}
         void set_last(std::string first) { this->first = first;}
         std::string get_first() {return first;}
-        std::string get_last() {return last;}
-        
+        std::string get_last() {return last;}    
 };
