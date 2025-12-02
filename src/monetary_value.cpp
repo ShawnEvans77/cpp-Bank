@@ -8,6 +8,7 @@ class MonetaryValue {
         MonetaryValue(int cents) { this->cents = cents; };
         MonetaryValue(double amount) {this->cents = (int) (amount * 100);}
         bool is_negative() { return cents < 0; };
+        
 };
 
 int main() {
