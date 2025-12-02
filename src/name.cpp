@@ -1,6 +1,7 @@
 #include <iostream>
 
 class Name {
+    
     private:
         std::string first;
         std::string last;
