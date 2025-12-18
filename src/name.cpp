@@ -7,13 +7,16 @@ class Name {
         std::string last;
 
     public:
-        Name(std::string first, std:: string last) {
-            this->first = first;
-            this->last = last;
-        }
+        Name(std::string first, std:: string last) :
+            first(first),
+            last(last)
+        {}
 
         void set_first(std::string first) { this->first = first;}
+
         void set_last(std::string first) { this->first = first;}
+
         std::string get_first() {return first;}
+        
         std::string get_last() {return last;}    
 };

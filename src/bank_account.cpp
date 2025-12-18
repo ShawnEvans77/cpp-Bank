@@ -6,6 +6,8 @@ class BankAccount {
         std::string name;
         std::string account_number;
         MonetaryValue x;
+        double interest_rate;
+        static MonetaryValue total;
 
 
 

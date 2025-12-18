@@ -11,7 +11,5 @@ class MonetaryValue {
 
         bool is_negative() { return cents < 0; };
 
-        int get_cents() { 
-            return cents; 
-        }
+        int get_cents() { return cents; }
 };
